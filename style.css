@@ -324,7 +324,7 @@ body {
 
 .timeline-bar {
     position: absolute;
-    min-height: 70px;
+    min-height: 80px;
     background: linear-gradient(135deg, rgba(0, 188, 212, 0.8), rgba(38, 198, 218, 0.6));
     border-radius: 25px;
     border: 2px solid var(--primary-color);
@@ -335,7 +335,7 @@ body {
 }
 
 .timeline-bar[data-start="2012"] { left: 0%; }
-.timeline-bar[data-start="2013"] { left: 5%; }
+.timeline-bar[data-start="2013"] { left: 0%; }
 .timeline-bar[data-start="2022"] { left: 20%; }
 .timeline-bar[data-start="2023"] { left: 39%; }
 .timeline-bar[data-start="2024"] { left: 59%; }
