@@ -836,7 +836,9 @@ body {
 }
 
 .float-animation {
-    animation: float 3s ease-in-out infinite;
+    @media screen and (min-width: 1024px) {
+        animation: float 3s ease-in-out infinite;
+    }
 }
 
 .glitch {
