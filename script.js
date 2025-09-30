@@ -14,26 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Parallax effect for hero section
-    const hero = document.querySelector('.hero');
-    const heroImage = document.querySelector('.profile-photo');
-    const heroContent = document.querySelector('.hero-content');
-    
-    window.addEventListener('scroll', () => {
-        const scrolled = window.pageYOffset;
-        const heroHeight = hero.offsetHeight;
-        const scrollPercentage = scrolled / heroHeight;
-        
-        if (scrollPercentage <= 1) {
-            // Parallax effect on hero image
-            heroImage.style.transform = `translateY(${scrolled * 0.5}px) scale(${1 + scrollPercentage * 0.1})`;
-            
-            // Fade out hero content
-            heroContent.style.opacity = 1 - scrollPercentage * 0.8;
-            heroContent.style.transform = `translateY(${scrolled * 0.3}px)`;
-        }
-    });
-
     // Intersection Observer for animations
     const observerOptions = {
         threshold: 0.1,

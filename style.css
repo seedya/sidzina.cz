@@ -47,6 +47,7 @@ body {
     left: 0;
     height: 100vh;
     overflow: hidden;
+    opacity: 0.5;
 }
 
 .profile-photo {
@@ -98,8 +99,6 @@ body {
     margin-top: 0.5rem;
     opacity: 0;
     animation: fadeInUp 1s ease 0.5s forwards;
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 1), 2px 2px 4px rgba(0, 0, 0, 0.8);
-    background: rgba(0, 0, 0, 0.3);
     padding: 0.5rem 1rem;
     border-radius: 8px;
     backdrop-filter: blur(5px);
@@ -341,7 +340,7 @@ body {
 
 .hobbies-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
     margin-top: 3rem;
 }
@@ -699,7 +698,7 @@ body {
     }
     
     .hobbies-grid {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
     
