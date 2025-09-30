@@ -339,7 +339,7 @@ body {
 .timeline-bar[data-start="2022"] { left: 20%; }
 .timeline-bar[data-start="2023"] { left: 39%; }
 .timeline-bar[data-start="2024"] { left: 59%; }
-.timeline-bar[data-start="2025"] { left: 80%; }
+.timeline-bar[data-start="2025"] { left: 72%; }
 .timeline-bar[data-start="2026"] { left: 100%; }
 
 .timeline-bar[data-end="2022"] { right: 81%; }
@@ -380,12 +380,18 @@ body {
     font-weight: 600;
     margin-bottom: 0.2rem;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .bar-content p {
     color: rgba(255, 255, 255, 0.9);
     font-size: 0.7rem;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .timeline-simple-mobile {
