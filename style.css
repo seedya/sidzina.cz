@@ -526,7 +526,7 @@ body {
 
 .when-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
     margin-top: 3rem;
 }
@@ -568,6 +568,11 @@ body {
     color: var(--text-gray);
     font-size: 1rem;
     line-height: 1.6;
+}
+
+.when-item p strong {
+    color: #e0e0e0;
+    font-weight: 600;
 }
 
 /* Seek Section */
@@ -620,6 +625,11 @@ body {
     color: var(--text-gray);
     font-size: 0.95rem;
     line-height: 1.6;
+}
+
+.seek-item p strong {
+    color: #e0e0e0;
+    font-weight: 600;
 }
 
 /* Contact Footer */
