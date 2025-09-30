@@ -335,6 +335,7 @@ body {
     backdrop-filter: blur(10px);
 }
 
+
 .timeline-bar[data-start="2012"] { left: 0%; }
 .timeline-bar[data-start="2013"] { left: 0%; }
 .timeline-bar[data-start="2022"] { left: 20%; }
