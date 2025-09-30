@@ -518,6 +518,110 @@ body {
     filter: drop-shadow(0 0 10px rgba(0, 188, 212, 0.5));
 }
 
+/* When Section */
+.when-section {
+    padding: 6rem 4rem;
+    background: rgba(0, 188, 212, 0.03);
+}
+
+.when-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.when-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(0, 188, 212, 0.2);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.when-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 188, 212, 0.2);
+    border-color: var(--primary-color);
+}
+
+.when-icon {
+    width: 80px;
+    height: 80px;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+}
+
+.when-item h3 {
+    color: var(--primary-light);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.when-item p {
+    color: var(--text-gray);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Seek Section */
+.seek-section {
+    padding: 6rem 4rem;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.seek-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+
+.seek-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.seek-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 35px rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.seek-icon {
+    width: 70px;
+    height: 70px;
+    color: #ffd700;
+    margin-bottom: 1.5rem;
+}
+
+.seek-item h3 {
+    color: #ffd700;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.seek-item p {
+    color: var(--text-gray);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
 /* Contact Footer */
 .contact-footer {
     background: var(--bg-darker);
@@ -798,6 +902,19 @@ body {
     .hobbies-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
+    }
+    
+    .when-section, .seek-section {
+        padding: 4rem 2rem;
+    }
+    
+    .when-grid, .seek-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .when-item, .seek-item {
+        padding: 1.5rem;
     }
     
     .contact-footer {
