@@ -860,7 +860,8 @@ body {
 @media (max-width: 768px) {
     .hero {
         flex-direction: column;
-        height: 100vh;
+        min-height: 100vh;
+        height: auto;
         position: relative;
     }
     
@@ -875,7 +876,8 @@ body {
     
     .hero-content {
         width: 100%;
-        height: 100vh;
+        min-height: 100vh;
+        height: auto;
         position: relative;
         z-index: 2;
         padding: 3rem 2rem;
