@@ -861,8 +861,7 @@ body {
 @media (max-width: 768px) {
     .hero {
         flex-direction: column;
-        min-height: 100vh;
-        height: auto;
+        height: 100vh;
         position: relative;
     }
     
@@ -877,17 +876,16 @@ body {
     
     .hero-content {
         width: 100%;
-        min-height: 100vh;
-        height: auto;
+        height: 100vh;
         position: relative;
         z-index: 2;
-        padding: 3rem 2rem;
+        padding: 2rem 1.5rem;
         justify-content: center;
         background: rgba(0, 0, 0, 0.4);
         display: flex;
         flex-direction: column;
         grid-template-columns: none;
-        gap: 2rem;
+        gap: 1.5rem;
         margin-left: 0;
     }
     
