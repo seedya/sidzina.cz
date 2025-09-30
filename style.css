@@ -846,6 +846,18 @@ body {
 }
 
 /* Responsive Design */
+@media (max-width: 1200px) and (min-width: 769px) {
+    .when-grid, .seek-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    
+    .hobbies-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
 @media (max-width: 1200px) {
     .container {
         max-width: 100%;
