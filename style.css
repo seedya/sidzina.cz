@@ -338,21 +338,22 @@ body {
 
 .timeline-bar[data-start="2012"] { left: 0%; }
 .timeline-bar[data-start="2013"] { left: 0%; }
-.timeline-bar[data-start="2022"] { left: 20%; }
-.timeline-bar[data-start="2023"] { left: 39%; }
-.timeline-bar[data-start="2024"] { left: 59%; }
-.timeline-bar[data-start="2025"] { left: 72%; }
+.timeline-bar[data-start="2022"] { left: 0%; }
+.timeline-bar[data-start="2023"] { left: 0%; }
+.timeline-bar[data-start="2024"] { left: 0%; }
+.timeline-bar[data-start="2025"] { left: 52%; }
 .timeline-bar[data-start="2026"] { left: 100%; }
 
 .timeline-bar[data-end="2022"] { right: 81%; }
 .timeline-bar[data-end="2023"] { right: 62%; }
 .timeline-bar[data-end="2024"] { right: 41%; }
 .timeline-bar[data-end="2025"] { right: 14%; }
-.timeline-bar[data-end="2025+"][data-start="2013"] { right: 8%; }
-.timeline-bar[data-end="2025+"][data-start="2023"] { right: 8%; }
-.timeline-bar[data-end="2025+"][data-start="2024"] { right: 8%; }
-.timeline-bar[data-end="2025+"][data-start="2025"] { right: 8%; }
-.timeline-bar[data-end="2026+"][data-start="2026"] { right: 8%; }
+.timeline-bar[data-end="2026"] { right: 31%; }
+.timeline-bar[data-end="2026+"][data-start="2012"] { right: 8%; }
+.timeline-bar[data-end="2026+"][data-start="2013"] { right: 8%; }
+.timeline-bar[data-end="2026+"][data-start="2023"] { right: 8%; }
+.timeline-bar[data-end="2026+"][data-start="2024"] { right: 8%; }
+.timeline-bar[data-end="2026+"][data-start="2025"] { right: 8%; }
 
 .timeline-bar[data-current="true"] {
     background: linear-gradient(135deg, rgba(0, 188, 212, 1), rgba(77, 208, 225, 0.8));
