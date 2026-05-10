@@ -399,7 +399,7 @@ body {
 
 .bar-content p a {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .bar-content p a:hover {
@@ -489,7 +489,7 @@ body {
     
     .timeline-row-mobile p a {
         color: white;
-        text-decoration: none;
+        text-decoration: underline;
     }
     
     .timeline-row-mobile p a:hover {
